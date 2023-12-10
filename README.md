@@ -9,6 +9,9 @@
  ## 🌈 Model Architecture
 ![Model_architecture](https://github.com/BigHyf/Structure-CLIP/blob/main/figure/model.png)
 
+## 📚 Dataset Download
+It will be coming soon.
+
 ## 📕 Code Path
 
 #### Code Structures
