@@ -7,7 +7,7 @@
  - [*Structure-CLIP: Towards Scene Graph Knowledge to Enhance Multi-modal Structured Representations*](https://arxiv.org/abs/2305.06152)
  
  ## 🌈 Model Architecture
-![Model_architecture](https://github.com/BigHyf/Structure-CLIP/blob/main/figure/model.png)
+![Model_architecture](https://github.com/zjukg/Structure-CLIP/blob/main/figure/model.png)
 
 ## 📚 Dataset Download
 It will be coming soon.
