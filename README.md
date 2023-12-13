@@ -5,6 +5,12 @@
 [![AAAI](https://img.shields.io/badge/AAAI-2024-%23f1592a?labelColor=%23003973&color=%23be1c1a)](https://aaai.org/Conferences/AAAI-24/)
 [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)
  - [*Structure-CLIP: Towards Scene Graph Knowledge to Enhance Multi-modal Structured Representations*](https://arxiv.org/abs/2305.06152)
+
+>This paper introduces an end-to-end framework Structure-CLIP, which integrates **Scene Graph Knowledge** to enhance multi-modal structured representations. 
+
+ ## 🔔 News
+- **`2023-12`** Our paper: [Structure-CLIP: Towards Scene Graph Knowledge to Enhance Multi-modal Structured Representations](https://arxiv.org/abs/2305.06152) was accepted by **`AAAI 2024`**
+- **`2022-12`** We release the [[Repo](https://github.com/zjukg/DUET)] for our **`AAAI 2023`** paper: [DUET: Cross-modal Semantic Grounding for Contrastive Zero-shot Learning](https://arxiv.org/abs/2207.01328)
  
  ## 🌈 Model Architecture
 ![Model_architecture](https://github.com/zjukg/Structure-CLIP/blob/main/figure/model.png)
@@ -44,4 +50,28 @@ bash script/run.sh
 
 **Note**: 
 - you can open the `.sh` file for <a href="#Parameter">parameter</a> modification.
+
+## 🤝 Cite:
+Please consider citing this paper if you use the ```code``` or ```data``` from our work.
+Thanks a lot :)
+
+```bigquery
+@inproceedings{DBLP:conf/aaai/StructureCLIP,
+  author       = {Yufeng Huang and
+                  Jiji Tang and
+                  Zhuo Chen and
+                  Rongsheng Zhang and
+                  Xinfeng Zhang and
+                  Weijie Chen and
+                  Zeng Zhao and
+                  Zhou Zhao and
+                  Tangjie Lv and
+                  Zhipeng Hu and
+                  Wen Zhang},
+  title        = {Structure-CLIP: Towards Scene Graph Knowledge to Enhance Multi-modal Structured Representations},
+  booktitle    = {{AAAI}},
+  publisher    = {{AAAI} Press},
+  year         = {2024}
+}
+```
 
