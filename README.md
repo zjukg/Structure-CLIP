@@ -9,6 +9,7 @@
 >This paper introduces an end-to-end framework Structure-CLIP, which integrates **Scene Graph Knowledge** to enhance multi-modal structured representations. 
 
  ## 🔔 News
+- **`2024-02` We preprint our Survey [Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey](http://arxiv.org/abs/2402.05391)  [[`Repo`](https://github.com/zjukg/KG-MM-Survey)].**
 - **`2023-12`** Our paper: [Structure-CLIP: Towards Scene Graph Knowledge to Enhance Multi-modal Structured Representations](https://arxiv.org/abs/2305.06152) was accepted by **`AAAI 2024`**
 - **`2022-12`** We release the [[Repo](https://github.com/zjukg/DUET)] for our **`AAAI 2023`** paper: [DUET: Cross-modal Semantic Grounding for Contrastive Zero-shot Learning](https://arxiv.org/abs/2207.01328)
  
