@@ -73,21 +73,9 @@ for epoch in range(10):
             # eval task2
             acc_test_attribution = test_vg_attribution(clip_model, myTransformer, test_vg_dataloader,test_vg_dataset,  args)
             wandb.log({"acc_test_attribution": acc_test_attribution})           
-            if acc_test_attribution > best_acc_test_attribution:
-                best_acc_test_attribution = acc_test_attribution
-                state = {"clip":clip_model.state_dict(), 'transformer':myTransformer.state_dict(), "acc": best_acc_test_attribution}
-                torch.save(state, 'checkpoints/case_study/attribution/best_{}.pt'.format(best_acc_test_attribution))
    
             acc_test_relation = test_vg_relation(clip_model, myTransformer, vg_relation_dataloader, vg_relation_dataset, args)
             wandb.log({"acc_test_relation": acc_test_relation})            
-            if acc_test_relation > best_acc_test_relation:
-                best_acc_test_relation = acc_test_relation
-                state = {"clip":clip_model.state_dict(), 'transformer':myTransformer.state_dict(), "acc": best_acc_test_relation}
-                torch.save(state, 'checkpoints/case_study/relation/best_{}.pt'.format(best_acc_test_relation))
-
-            wandb.log({"best_acc_test_attribution": best_acc_test_attribution})
-            wandb.log({"best_acc_test_relation": best_acc_test_relation})
-            
         
         # train
         clip_model.train()
