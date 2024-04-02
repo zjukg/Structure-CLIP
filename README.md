@@ -17,7 +17,7 @@
 ![Model_architecture](https://github.com/zjukg/Structure-CLIP/blob/main/figure/model.png)
 
 ## 📚 Dataset Download
-Training datasets are available [`here`](https://pan.baidu.com/s/1-ZpEZQfOP5byKmNRmHAeaA) (Code: `2oz1`).
+Training datasets are available [`here`](https://pan.baidu.com/s/1RZrP5_hlm8D57Jgd2cbnmw) (Code: `33ri`).
 
 ## 📕 Code Path
 
