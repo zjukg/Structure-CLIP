@@ -9,7 +9,6 @@ from torch.nn import functional as F
 from PIL import Image
 from tqdm import tqdm
 import sng_parser
-from blip_utils import get_rank, all_gather_batch
 
 def get_args():
     parser = argparse.ArgumentParser()
